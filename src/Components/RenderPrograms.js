@@ -30,7 +30,7 @@ const RenderPrograms=props=>{
                 
                  <img src={program.links.mission_patch} className="card-img"/>
                 
-                 <CardContent>
+                 <CardContent style={{textAlign:"left"}}>
                      <p className="name">{program.mission_name} # {program.flight_number}</p>
                      <p className="id"> Mission Ids: <span>{ program.mission_id}</span></p>
                      <p className="id">Launch Year: <span>{program.launch_year}</span></p>
