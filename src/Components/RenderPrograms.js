@@ -25,7 +25,7 @@ const RenderPrograms=props=>{
          <div>
             <ThemeProvider theme={theme}>
              <Grid item xs={12} sm={4} md={2} lg={2}>
-             <Card className="card-comp" variant="outlined" style={{height:"500px}}>
+             <Card className="card-comp" variant="outlined" style={{height:"500px"}}>
                  <CardActionArea>
                 
                  <img src={program.links.mission_patch} className="card-img"/>
