@@ -30,16 +30,14 @@ body{
 @media screen and (min-width:700px) and (max-width:1025px){
     .card-comp{
     width:210px;
-    justify-content: space-around;
+    
     
     }
     .MuiGrid-root{
         .filter-grid{
         margin-left: 10px;
     }
-    .program-grid{
-        justify-content: space-evenly;
-    }
+    
 }
 }
 @media screen and (min-width:875px) and (max-width:1024px){
