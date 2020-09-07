@@ -27,28 +27,26 @@ body{
     }
 }
 
-@media screen and (min-width:700px) and (max-width:1025px){
+@media screen and (min-width:700px) and (max-width:750px){
     .card-comp{
-    width:210px;
-    
-    
-    }
-    .MuiGrid-root{
-        .filter-grid{
-        margin-left: 10px;
-    }
-    
+    width:10rem;
+    }   
 }
-}
-@media screen and (min-width:875px) and (max-width:1024px){
+@media screen and (min-width:751px) and (max-width:1025px){
+    .card-comp{
+    width:11rem;
     
-    .MuiGrid-root{
-        .filter-grid{
-        margin-left: 50px;
+}  
+}
+@media screen and (min-width:1000px) and (max-width:1025px){
+    .card-comp{
+    width:16rem;
+    
+    
     }
+   
+}
 
-}
-}
 @media screen and (max-width:700px){
     .program-grid{
         justify-content: center;
@@ -69,7 +67,7 @@ body{
 }
 @media screen and (min-width:1083px) and (max-width:1440px){
     .card-comp{
-    width:10rem;
+    width:11rem;
     justify-content: space-around;
     
     }
@@ -94,3 +92,10 @@ body{
     
 }
 }
+@media screen and (min-width:1250px){
+    .program-grid{
+        margin-left: 8%;
+    }
+    
+}
+

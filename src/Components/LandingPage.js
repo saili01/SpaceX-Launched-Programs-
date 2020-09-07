@@ -6,6 +6,7 @@ import RenderPrograms from './RenderPrograms';
 import FilterComponent from '../Components/Filter/FilterComponent';
 import { createMuiTheme,ThemeProvider } from '@material-ui/core/styles';
 import './RenderProgram.scss';
+import { Container } from '@material-ui/core';
 
 const theme = createMuiTheme({
     breakpoints: {
@@ -13,8 +14,7 @@ const theme = createMuiTheme({
         xs: 0,
         sm: 700,
         md: 1025,
-        lg: 1260,
-        xl:1440
+        lg: 1441,
         
       },
     },
@@ -48,18 +48,21 @@ return(
            <header>SpaceX Launch Programs</header> 
         </Typography>
         <main>
-          
-        <Grid container>
-        
-        <Grid item xs={12} sm={3} md={2} lg={2} xl={3} style={{minWidth:'236px'}} className="filter-grid">
+      
+        <Grid container >
+       
+        <Grid item xs={12} sm={4} md={2} lg={2} xl={2} style={{minWidth:'236px'}} className="filter-grid">
           <FilterComponent onClick={this.renderPosts}/>
         </Grid>
-         
-        <Grid item xs={12} sm={8} md={9} lg={9} xl={9}>
+       
+        <Grid item xs={12} sm={7} md={9} lg={10} xl={10}>
+      
         <RenderPrograms programs={this.state.list}/>
-        </Grid>
        
         </Grid>
+       
+       </Grid>
+       
         </main>
         <footer>
         <h2 style={{textAlign:"center"}}>Developed by: <span style={{fontWeight:'normal'}}>Saili Manchkar</span></h2>

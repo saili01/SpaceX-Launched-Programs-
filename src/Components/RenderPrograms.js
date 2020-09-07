@@ -9,7 +9,7 @@ const theme = createMuiTheme({
     values: {
       xs: 0,
       sm: 700,
-      md: 1024,
+      md: 1025,
       lg: 1441,
       
     },
@@ -24,7 +24,7 @@ const RenderPrograms=props=>{
      return (
          <div>
             <ThemeProvider theme={theme}>
-             <Grid item xs={12} sm={4} md={2} lg={2}>
+             <Grid item xs={12} sm={2} md={2} lg={2}>
              <Card className="card-comp" variant="outlined" style={{height:"500px"}}>
                  <CardActionArea>
                 
