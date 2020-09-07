@@ -49,7 +49,7 @@ return(
         </Typography>
         <main>
       
-        <Grid container >
+        <Grid container>
        
         <Grid item xs={12} sm={4} md={2} lg={2} xl={2} style={{minWidth:'236px'}} className="filter-grid">
           <FilterComponent onClick={this.renderPosts}/>
